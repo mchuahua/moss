@@ -8,10 +8,10 @@ The core of this is the MOSS submission script: `moss.pl`. The scripts I provide
 - As long as there is a `Query submitted. Waiting for server's response`, anything afterwards that isn't a html link means their server is down. This includes errors such as `no files uploaded`. Try again the next day, hopefully their server is up again. 
 
 # Example usage:
-`perl moss.pl -l c -b base/tetris.c -d students/*/tetris.c`
+`perl moss.pl -l c -b base/template_file -d students/*/submission_file`
 
 - `-l c`: language = c. There's a variety of languages supported and you should change it depending on the file language
-- `-b base/tetris.c`: set the filepath for a base file template to reduce false positives
+- `-b base/template_file`: set the filepath for a base file template to reduce false positives
 - `-d`: specify to split the reports to individual student directory rather than file
 - Everything else afterwards is the file path to file submissions. Wildcard `*` is supported.
 - Sometimes this
