@@ -14,7 +14,6 @@ The core of this is the MOSS submission script: `moss.pl`. The scripts I provide
 - `-b base/template_file`: set the filepath for a base file template to reduce false positives
 - `-d`: specify to split the reports to individual student directory rather than file
 - Everything else afterwards is the file path to file submissions. Wildcard `*` is supported.
-- Sometimes this
 
 
 # Steps:
