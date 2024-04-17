@@ -26,10 +26,5 @@ The core of this is the MOSS submission script: `moss.pl`. The scripts I provide
 - A html link is returned. Make sure to save this because it'll get auto deleted in 2 weeks.
 
 # Saving
-` wget --recursive --no-clobber --page-requisites \
-  --html-extension --convert-links \
-  --restrict-file-names=windows \
-  --domains moss.stanford.edu \
-  --no-parent \
-  -e robots=off \
-  http://moss.stanford.edu/results/1/XXXXXXXXXX/`
+- Replace the last link with your own.
+` wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains moss.stanford.edu --no-parent -e robots=off http://moss.stanford.edu/results/1/XXXXXXXXXX/`
